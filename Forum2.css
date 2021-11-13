@@ -1,0 +1,32 @@
+/* CSS */
+.body {
+    background-color: black;
+    font-size: 30px;
+}
+.body h1 {
+    color: white;
+    align-items: center;
+}
+
+/* LESS */
+@color1 = black;
+@color2 = lightblue;
+
+.head {
+    color: @color1;
+}
+.body {
+    background-color: @color2;
+}
+
+/* SASS */
+$color1 = orange;
+$color2 = darkgoldenrod;
+
+.body h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: $color2;
+}
+.body p{
+    background-color: $color1;
+}
